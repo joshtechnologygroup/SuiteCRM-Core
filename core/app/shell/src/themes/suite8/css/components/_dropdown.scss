@@ -370,7 +370,6 @@ ul.main li a,
   border-radius: 0.25em;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  background-color: $cool-blue;
   width: max-content;
   min-width: 10em;
   border: 0;
@@ -413,6 +412,7 @@ ul.main li a,
 
   .dropdown-item {
     padding: .25em .8em;
+    background: $white;
 
     svg {
       margin: 0 0.5em 0 0;
@@ -439,24 +439,17 @@ ul.main li a,
 .dropdown-button-secondary .dropdown-menu a:hover,
 .filter-action-group .dropdown-menu a:hover,
 .select-action-group .dropdown-menu a:hover {
-  background: $white;
+  background: $off-white;
   color: $text-color;
   cursor: pointer;
-}
-
-.dropdown-button .dropdown-menu a,
-.button-group-dropdown .dropdown-menu a,
-.bulk-action-group .dropdown-menu a,
-.select-action-group .dropdown-menu a {
-  color: $white;
 }
 
 .dropdown-button .dropdown-menu a:hover,
 .button-group-dropdown .dropdown-menu a:hover,
 .bulk-action-group .dropdown-menu a:hover,
 .select-action-group .dropdown-menu a:hover {
-  background-color: $astral-blue;
-  color: $white;
+  background-color: $off-white;
+  color: $text-color;
   cursor: pointer;
 }
 

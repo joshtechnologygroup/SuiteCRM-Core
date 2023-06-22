@@ -58,7 +58,6 @@
   }
 
   .detail-view > .nav-tabs > #tab-actions > a {
-    background-color: $button-bg-color;
     border-radius: 4px;
     font-size: 11px;
     font-weight: 600;
@@ -69,7 +68,7 @@
   }
 
   .detail-view > .nav-tabs > #tab-actions > .dropdown-menu {
-    background-color: $button-bg-color;
+    background-color: $white;
   }
 
   .detail-view > .nav-tabs > #tab-actions > .dropdown-menu > li {
@@ -79,10 +78,11 @@
 
   .detail-view > .nav-tabs > #tab-actions > .dropdown-menu .button {
     background-color: $transparent;
+    color: $text-color;
   }
 
   .detail-view > .nav-tabs > #tab-actions > .dropdown-menu > li:hover {
-    background-color: $action-btn-hover-bg-color;
+    background-color: $off-white;
   }
 
   .nav-tabs > li > a,
@@ -311,5 +311,3 @@
 .tab-content .tab-pane-NOBOOTSTRAPTOGGLER:not(.active) {
   display: none;
 }
-
-
