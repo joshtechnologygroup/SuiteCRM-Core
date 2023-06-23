@@ -17,8 +17,7 @@
         padding-top: 0.5em;
         padding-bottom: 0.5em;
     }
-    input[type=text],input[type=password],input[type=email],input[type=number],textarea{
-        background-color: $transparent-color;
+    input[type=text],input[type=password],input[type=email],input[type=number],textarea{ 
         border: 1px solid $form-border-color;
         margin-bottom: 1em;
     }
@@ -81,7 +80,7 @@
         }
     }
     input[type=button] {
-        background-color: $nepal-grey;
+        color: $white;
         border-radius: 0.2em;
         font-weight: bold;
         height: 2.2em;
@@ -97,7 +96,6 @@
         margin-top: 1em;
         margin-bottom: 1em;
         .sugar_action_button {
-            background-color: $nepal-grey;
             border-radius: 0.2em;
             font-weight: bold;
             height: 2.2em;
@@ -112,14 +110,15 @@
             ul.subnav {
                 width: auto;
                 top: auto;
-                background: $nepal-grey;
+                background: $white;
                 li {
                     background: $transparent-color;
                     &:hover {
-                        background: $pale-blue;
+                        background: $off-white;
                     }
                 }
                 a {
+                    color: $text-color;
                     background: $transparent-color;
                 }
             }
