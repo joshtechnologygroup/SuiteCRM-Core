@@ -24,12 +24,12 @@
  * the words "Supercharged by SuiteCRM".
  */
 
+import {Component, Input} from '@angular/core';
+
 export enum LogoType {
     WHITE = 'white',
     DARK = 'dark',
 }
-
-import {Component, Input} from '@angular/core';
 
 @Component({
     selector: 'scrm-logo-ui',

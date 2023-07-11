@@ -48,7 +48,6 @@
     #upload_div {
         margin-top: 1em;
         .button {
-            background-color: $nepal-grey;
             border-radius: 0.2em;
             font-weight: bold;
             height: 2.2em;
@@ -58,14 +57,10 @@
             text-transform: capitalize;
             margin-top: 1em;
             margin-right: 0.5em;
-            display: inline;
-            &:hover {
-                background: $pale-blue;
-            }           
+            display: inline; 
         }       
     }
     #add_doc {
-        background-color: $nepal-grey;
         border-radius: 0.2em;
         font-weight: bold;
         height: 2.2em;
@@ -75,9 +70,6 @@
         text-transform: capitalize;
         margin-top: 1em;
         margin-right: 0.5em;
-        &:hover {
-            background: $pale-blue;
-        }
     }
     input[type=button] {
         color: $white;
