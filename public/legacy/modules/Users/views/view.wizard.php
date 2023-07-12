@@ -75,7 +75,7 @@ class ViewWizard extends SugarView
         $themeObject = SugarThemeRegistry::current();
         $css = $themeObject->getCSS();
         $this->ss->assign('SUGAR_CSS', $css);
-        $favicon = $themeObject->getImageURL('sugar_icon.ico', false);
+        $favicon = $themeObject->getImageURL('pod_icon.ico', false);
         $this->ss->assign('FAVICON_URL', getJSPath($favicon));
         $this->ss->assign('CSS', '<link rel="stylesheet" type="text/css" href="'.SugarThemeRegistry::current()->getCSSURL('wizard.css').'" />');
         $this->ss->assign('JAVASCRIPT', user_get_validate_record_js().user_get_chooser_js().user_get_confsettings_js());

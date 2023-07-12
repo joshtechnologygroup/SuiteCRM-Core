@@ -98,7 +98,7 @@ class ViewAdminwizard extends SugarView
         // Always mark that we have got past this point
         $focus->saveSetting('system', 'adminwizard', 1);
         $css = $themeObject->getCSS();
-        $favicon = $themeObject->getImageURL('sugar_icon.ico', false);
+        $favicon = $themeObject->getImageURL('pod_icon.ico', false);
         $this->ss->assign('FAVICON_URL', getJSPath($favicon));
         $this->ss->assign('SUGAR_CSS', $css);
         $this->ss->assign('MOD_USERS', return_module_language($GLOBALS['current_language'], 'Users'));

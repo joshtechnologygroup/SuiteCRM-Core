@@ -64,7 +64,7 @@ class FactorAuthEmailCode implements FactorAuthInterface
 
         $cssPath = $theme->getCSSPath();
         $css = $theme->getCSS();
-        $favicon = $theme->getImageURL('sugar_icon.ico', false);
+        $favicon = $theme->getImageURL('pod_icon.ico', false);
 
         $ss->assign('APP', $app_strings);
         $ss->assign('cssPath', $cssPath);

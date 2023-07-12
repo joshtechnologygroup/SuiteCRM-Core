@@ -43,12 +43,6 @@ a.footer-link:not([href]):not([tabindex]) {
   color: $text-color;
 }
 
-.footer-link:hover {
-  color: $text-color;
-  opacity: 0.7;
-  text-decoration: none;
-}
-
 .back-to-top .footer-link {
   text-transform: uppercase;
   font-size: 0.75em;

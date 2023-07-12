@@ -60,7 +60,7 @@ $out =<<<EOQ
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <meta http-equiv="Content-Style-Type" content="text/css">   
    <title>{$mod_strings['LBL_LICENSE_TITLE_2']}</title>
-   <link REL="SHORTCUT ICON" HREF="include/images/sugar_icon.ico">
+   <link REL="SHORTCUT ICON" HREF="include/images/pod_icon.ico">
    <link rel="stylesheet" href="install/install.css" type="text/css">   
 </head>
 
