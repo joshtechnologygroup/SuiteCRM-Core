@@ -75,6 +75,8 @@ $moduleList[] = 'Opportunities';
 
 $moduleList[] = 'Emails';
 $moduleList[] = 'EmailTemplates';
+$moduleList[] = 'InboundEmail';
+$moduleList[] = 'OutboundEmailAccounts';
 $moduleList[] = 'Campaigns';
 $moduleList[] = 'Prospects';
 $moduleList[] = 'ProspectLists';
@@ -117,6 +119,7 @@ $beanList['DynamicFields'] = 'DynamicField';
 $beanList['EditCustomFields'] = 'FieldsMetaData';
 $beanList['Opportunities'] = 'Opportunity';
 $beanList['EmailTemplates'] = 'EmailTemplate';
+$beanList['InboundEmail'] = 'InboundEmail';
 $beanList['Notes'] = 'Note';
 $beanList['Calls'] = 'Call';
 $beanList['Emails'] = 'Email';
