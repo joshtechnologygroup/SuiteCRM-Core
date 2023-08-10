@@ -1,7 +1,6 @@
 #testOutboundDialog {
     #testOutbound {
         .button {
-            background-color: $nepal-grey;
             border-radius: 0.2em;
             font-weight: bold;
             height: 2.2em;
@@ -12,7 +11,6 @@
             margin-top: 1em;
             border: none;
             &:hover {
-                background: $pale-blue;
                 font-size: 13px;
             }
         }

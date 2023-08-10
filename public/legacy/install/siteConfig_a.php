@@ -127,7 +127,7 @@ $out =<<<EOQ
    <meta http-equiv="Content-Script-Type" content="text/javascript">
    <meta http-equiv="Content-Style-Type" content="text/css">
    <title>{$mod_strings['LBL_WIZARD_TITLE']}  {$mod_strings['LBL_SITECFG_TITLE']}</title>
-   <link REL="SHORTCUT ICON" HREF="include/images/sugar_icon.ico">
+   <link REL="SHORTCUT ICON" HREF="include/images/pod_icon.ico">
    <link rel="stylesheet" href="install/install.css" type="text/css" />
    <link rel="stylesheet" href="themes/suite8/css/fontello.css">
    <link rel="stylesheet" href="themes/suite8/css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->

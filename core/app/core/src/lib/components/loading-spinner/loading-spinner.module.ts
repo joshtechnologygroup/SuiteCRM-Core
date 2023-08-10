@@ -26,6 +26,7 @@
 
 import {NgModule} from '@angular/core';
 import {CommonModule} from '@angular/common';
+import { ImageModule } from '../image/image.module';
 import {LoadingSpinnerComponent} from './loading-spinner.component';
 
 
@@ -37,6 +38,7 @@ import {LoadingSpinnerComponent} from './loading-spinner.component';
         LoadingSpinnerComponent
     ],
     imports: [
+        ImageModule,
         CommonModule
     ]
 })

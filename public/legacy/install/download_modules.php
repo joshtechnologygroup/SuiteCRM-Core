@@ -206,7 +206,7 @@ $out =<<<EOQ
    <meta http-equiv="Content-Script-Type" content="text/javascript">
    <meta http-equiv="Content-Style-Type" content="text/css">
    <title>{$mod_strings['LBL_WIZARD_TITLE']} {$mod_strings['LBL_MODULE_TITLE']}</title>
-   <link REL="SHORTCUT ICON" HREF="include/images/sugar_icon.ico">
+   <link REL="SHORTCUT ICON" HREF="include/images/pod_icon.ico">
    <link rel="stylesheet" href="install/install.css" type="text/css">
    <script type="text/javascript" src="install/installCommon.js"></script>
    <link rel="stylesheet" type="text/css" media="all" href="jscalendar/calendar-win2k-cold-1.css?s={$sugar_version}&c={$js_custom_version}">

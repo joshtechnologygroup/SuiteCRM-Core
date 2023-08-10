@@ -131,7 +131,7 @@ $install_script = true;
 ///////////////////////////////////////////////////////////////////////////////
 //// INSTALL RESOURCE SETUP
 $css = 'install/install.css';
-$icon = 'include/images/sugar_icon.ico';
+$icon = 'include/images/pod_icon.ico';
 $sugar_md = 'include/images/sugar_md_open.png';
 $loginImage = 'include/images/suitecrm_login.png';
 $common = 'install/installCommon.js';

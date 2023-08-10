@@ -325,7 +325,7 @@ class ExternalOAuthProvider extends Basic
         $siteUrl = str_ireplace('index.php', '', $siteUrl);
         $siteUrl = rtrim($siteUrl, " \t\n\r\0\x0B\/");
 
-        return $siteUrl . '/index.php?entryPoint=setExternalOAuthToken';
+        return $siteUrl . '/legacy/index.php?entryPoint=setExternalOAuthToken';
     }
 
     /**

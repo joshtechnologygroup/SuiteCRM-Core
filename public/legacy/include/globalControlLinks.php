@@ -90,10 +90,6 @@ $global_control_links['users'] = array(
 'submenu' => ''
 );
 
-$global_control_links['about'] = array('linkinfo' => array($app_strings['LNK_ABOUT'] => 'index.php?module=Home&action=About'),
-'submenu' => ''
-);
-
 if (is_file('custom/include/globalControlLinks.php')) {
     include('custom/include/globalControlLinks.php');
 }
